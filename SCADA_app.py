@@ -24,4 +24,3 @@ s.metric(label="Wind Speed",value="120ms\^-1",delta="1.4ms\^-1")
 s.table(table)
 s.dataframe(table)
 
-<img src="https://s-i.huffpost.com/gen/2086624/images/o-BASEBALL-DIAMOND-facebook.jpg" />
