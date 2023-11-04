@@ -23,6 +23,5 @@ s.write("## H2")
 s.metric(label="Wind Speed",value="120ms\^-1",delta="1.4ms\^-1")
 s.table(table)
 s.dataframe(table)
-<br>
-<img height="300" src="https://s-i.huffpost.com/gen/2086624/images/o-BASEBALL-DIAMOND-facebook.jpg" />
-<br>
+
+<img src="https://s-i.huffpost.com/gen/2086624/images/o-BASEBALL-DIAMOND-facebook.jpg" />
