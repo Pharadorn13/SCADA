@@ -17,3 +17,4 @@ print("Hello")
 def funct()
     return 0;"""
 s.code(code,language="python")
+s.write()
