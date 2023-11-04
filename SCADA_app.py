@@ -10,5 +10,5 @@ s.markdown("---")
 s.markdown("[GOOGLE](https://www.google.com/)")
 s.caption("THIS IS CAPTION")
 s.latex(r"\begin{pmatrix}a&b \\c&d\end{pmatrix}")
-json-{"a":"1,2,3","b":"4,5,6"}
+json={"a":"1,2,3","b":"4,5,6"}
 s.json(json)
