@@ -18,4 +18,4 @@ def funct()
     return 0;"""
 s.code(code,language="python")
 s.write("## H2")
-s.metric(Label="Wind Speed",value="120ms\^-1",delta="1.4ms\^-1")
+s.metric(label="Wind Speed",value="120ms\^-1",delta="1.4ms\^-1")
