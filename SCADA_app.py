@@ -1,5 +1,5 @@
 import streamlit as s
-s.title("SUNSTAR")
+s.title("SUNSTAR")^
 s.subheader("SUNSTAR ENGINEERING THAILAND")
 s.header("GRINDING")
 s.text("DISPLAY REALTIME STATUS FROM NISSEI MACHINE")
@@ -17,4 +17,5 @@ print("Hello")
 def funct()
     return 0;"""
 s.code(code,language="python")
-s.write()
+s.write("## H2")
+s.metric(Label="Wind Speed",value="120ms\^-1",delta="1.4ms\^-1")
