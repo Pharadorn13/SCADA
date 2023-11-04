@@ -12,3 +12,8 @@ s.caption("THIS IS CAPTION")
 s.latex(r"\begin{pmatrix}a&b \\c&d\end{pmatrix}")
 json={"a":"1,2,3","b":"4,5,6"}
 s.json(json)
+code="""
+print("Hello")
+def funct()
+    return 0;"""
+s.code(code,language="python")
