@@ -1,37 +1,22 @@
-#python -m streamlit run main.py 
 import streamlit as st
+import pandas as pd
 import sqlite3
 
-# Function to create a database connection
-def create_connection():
-    conn = sqlite3.connect('panddd.db')
-    return conn
 
-# Function to execute a query and fetch results
-def execute_query(conn, query):
-    cursor = conn.cursor()
-    cursor.execute(query)
-    result = cursor.fetchall()
-    return result
+st.title('SUNSTAR')
+st.subheader("SUNSTAR ENGINEERING THAILAND")
 
-# Function to display data in a Streamlit table
-def display_data(data):
-    st.table(data)
-
-# Main function to run the Streamlit app
 def main():
-    st.title('SQLite Database Web App')
+    st.title('SUNSTAR')
+    st.subheader("SUNSTAR ENGINEERING THAILAND")
+    menu = ["ALL","MC1"]
+    choice = st.sidebar.selectbox("Menu",menu)
 
-    # Create a database connection
-    conn = create_connection()
+    if choice == "ALL":
+        st.subheader("ALL MACHINE STATUS")
+    else:
+        st.subheader("DENKO 1-2")
 
-    # Query the database (replace with your own query)
-    query = 'SELECT * FROM your_table_name'
-    result = execute_query(conn, query)
 
-    # Display the data in a Streamlit table
-    display_data(result)
-
-# Run the app
-if __name__ == '__main__':
+if __name__ == '__connect__':
     main()
